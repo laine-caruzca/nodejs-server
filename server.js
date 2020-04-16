@@ -4,7 +4,7 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 4000;
 
-app.get("/test", (req, res) => {
+app.get("/", (req, res) => {
   res.json({
     name: "Laine",
   });
